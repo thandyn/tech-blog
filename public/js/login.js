@@ -8,16 +8,16 @@ const loginForm = async (e) => {
     method: "POST",
     body: JSON.stringify({
       username: userNameEl.value,
-      password: passwordEl.value, 
-    });
+      password: passwordEl.value,
+    }),
     headers: {
-      "Content-type": "application/json"
+      "Content-type": "application/json",
     },
   });
   if (response.ok) {
-    document.location.replace('/dashboard');
+    document.location.replace("/dashboard");
   } else {
-    alert('Failed to login');
+    alert("Failed to login");
   }
 };
 
