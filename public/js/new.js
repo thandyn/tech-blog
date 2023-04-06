@@ -18,3 +18,5 @@ const newForm = async (e) => {
   document.location.replace("/dashboard");
 };
 document.getElementById("new-post-form").addEventListener("submit", newForm);
+
+//new post

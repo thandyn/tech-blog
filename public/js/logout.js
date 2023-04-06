@@ -12,3 +12,5 @@ const logout = async () => {
   }
 };
 document.getElementById("logout-link").addEventListener("click", logout);
+
+//main and dash

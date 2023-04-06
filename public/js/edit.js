@@ -29,3 +29,4 @@ const deleteClick = async () => {
 
 document.getElementById("edit-post-form").addEventListener("submit", editForm);
 document.getElementById("delete-btn").addEventListener("click", deleteClick);
+//edit post
